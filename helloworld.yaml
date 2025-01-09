@@ -1,6 +1,10 @@
 - name: playbook
   hosts: web
-    tasks: To print helloworld
-    ansible.built.in.debug:
-    - name: To print helloworld
-        msg: "Mukunda welcome world"
+  tasks: 
+    - name: To print hello world
+      ansible.built.in.debug:
+      msg "welcome to mukunda hello world"
+
+
+
+        
