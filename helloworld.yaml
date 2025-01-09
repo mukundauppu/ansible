@@ -1,9 +1,9 @@
-- name: playbook
+- name: hello playbook
   hosts: web
   tasks:
-  - name: Print hello world
-    ansible.built.in.debug:
-      msg: "mukunda"
+  - name: print hello world
+    ansible.builtin.debug:
+      msg: "mukundakumar"
 
 
 
