@@ -4,5 +4,9 @@
     tasks:
     - name: To install nginx
       ansibe.built.in.package
-      service=install
-      state=present
+      name:
+      nginx: install
+      state: present
+    - name:
+      service: start
+      state: present
