@@ -4,10 +4,11 @@
   tasks:
     - name: To install nginx
       ansibe.built.in.package:
-      name:
+       name:
       nginx: install
       state: present
     - name:
       ansible.builtin.service:
-      service: start
-      state: present
+       name:
+        service: start
+        state: present
