@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: Install ngnix
-    ansible.buitin.package:
+    ansible.builtin.package:
       name: nginx
       state: present
   - name: Start service
@@ -11,5 +11,5 @@
       name: ngnix
       state: started
       enabled: yes
-      
+
     
