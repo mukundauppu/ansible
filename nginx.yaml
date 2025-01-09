@@ -1,5 +1,5 @@
 - name: To run and install nginx
-    hosts: web
+    hosts: backend
     become: yes
     tasks:
     - name: To install nginx
