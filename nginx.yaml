@@ -1,7 +1,7 @@
 - name: To run and install nginx
-    hosts: web
-    become: yes
-    tasks:
+  hosts: web
+  become: yes
+  tasks:
     - name: To install nginx
       ansibe.built.in.package:
       name:
