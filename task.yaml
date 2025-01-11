@@ -9,5 +9,5 @@
   - name: To display variable
     vars:
      MUKUNDA: Automotive
-     ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
