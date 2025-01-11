@@ -4,4 +4,4 @@
   tasks:
     - name: To display the information
       ansible.builtin.debug:
-          msg: "keerthi {{ }}, everyday {{ }} ,spending {{ }}"
+          msg: "keerthi {{COURSE }}, everyday {{TRAINER }} ,spending {{MONEY }}"
