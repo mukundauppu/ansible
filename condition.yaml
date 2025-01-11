@@ -1,7 +1,8 @@
 - name: To display greater number
   hosts: local
   connection: local
-  vars: my_number
+  vars: 
+  my_number: 6
   tasks:
   - name: To display greater number
     ansible.buitin.debug:
