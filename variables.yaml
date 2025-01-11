@@ -1,0 +1,11 @@
+- name: variable to run
+  hosts: local
+  connection: local
+  vars:
+   MUKUNDA: " joined devops"
+   EVERYDAY: "practicing at home "
+   SPENDING: "4 hours everyday"
+  tasks:
+  - name: To display variable
+    ansible.builtin.debug:
+     msg: "mukunda {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
