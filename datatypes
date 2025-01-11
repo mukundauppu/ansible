@@ -1,4 +1,6 @@
 - name: Devops couse
   hosts: local
   connection: local
+  tasks:
+  
   
