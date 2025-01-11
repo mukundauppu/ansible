@@ -1,6 +1,6 @@
 - name: to install packages
   hosts: local
-  connection: local
+  become: yes
   tasks:
   - name: To install mp packages
     ansible.builtin.package:
