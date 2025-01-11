@@ -3,8 +3,8 @@
   connection: local
   vars_files:
   
-  - name: To print the mukunda
-    prompt: Mukunda 
+  - name: to print
+    prompt: please eneter mukunda
   - name: spending
     prompt: Everyday spending
   - name: Money
