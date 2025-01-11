@@ -1,7 +1,7 @@
 - name: To refer the variable name
   hosts: local
   connection: local
-  vars-files:
+  vars_files:
   - vars.yaml
   tasks:
    - name: To print the display information
