@@ -3,9 +3,9 @@
   connection: local
   vars: # PLAY level variables
      GREET: "PLAY"
-   vars_files:
+  vars_files:
      - course.yaml
-   vars_prompt:
+  vars_prompt:
    - name: GREET
      prompt: Enter the value
      private: false
