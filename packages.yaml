@@ -4,8 +4,8 @@
   tasks:
   - name: To install mp packages
     ansible.builtin.package:
-    name: "{{ item }}"
-    state: installed
+     name: "{{ item }}"
+     state: installed
     loop:
     - mysql
     - nginx
