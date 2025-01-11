@@ -1,6 +1,6 @@
 - name: To install ingnix and run
-  hosts: web
-  become: yes
+  hosts: local
+  connections: local
   tasks:
   - name: Install ngnix
     ansible.builtin.package:
