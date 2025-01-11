@@ -1,7 +1,7 @@
 - name : To print the value name
-   hosts: local
-   connection: local
-   tasks:
-     - name: To display the information
-       ansible.builtin.debug:
+  hosts: local
+  connection: local
+  tasks:
+    - name: To display the information
+      ansible.builtin.debug:
           msg: "keerthi {{ }}, everyday {{ }} ,spending {{ }}"
