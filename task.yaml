@@ -8,6 +8,6 @@
   tasks:
   - name: To display variable
     vars:
-    MUKUNDA: Automotive
-    ansible.builtin.debug:
-     msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
+     MUKUNDA: Automotive
+     ansible.builtin.debug:
+      msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
