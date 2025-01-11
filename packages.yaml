@@ -1,5 +1,5 @@
 - name: to install packages
-  hosts: local
+  hosts: web
   become: yes
   tasks:
   - name: To install mp packages
