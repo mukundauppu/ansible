@@ -4,7 +4,7 @@
   vars: # PLAY level variables
      GREET: "PLAY"
   vars_files:
-     - course.yaml
+     - vars.yaml
   vars_prompt:
    - name: GREET
      prompt: Enter the value
