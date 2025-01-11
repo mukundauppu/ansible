@@ -1,0 +1,11 @@
+- name: To display greater number
+  hosts: local
+  connection: local
+  vars: my_number
+  tasks:
+  - name: To display greater number
+    ansible.buitin.debug:
+     msg: "display {{my_number}} greater than 10"
+    when: my_number > 10
+
+  
