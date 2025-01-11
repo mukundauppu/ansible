@@ -1,0 +1,11 @@
+- name: to install packages
+  hosts: web
+  become: yes
+  tasks:
+  - name: To install mp packages
+    ansible.builtin.package:
+     name: "{{ item }}"
+     state: installed
+    loop:
+    - { name: 'git', state:'present'}
+    - { name: 'mysql', state:'absent'}
