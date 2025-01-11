@@ -1,0 +1,13 @@
+- name: variable to run
+  hosts: local
+  connection: local
+  vars:
+   MUKUNDA: " is a good knowlege person "
+   EVERYDAY: "veerabrahma zf hr is a waste fellow allows delaying the proces "
+   SPENDING: "lots of effort verabrahma relased the offer"
+  tasks:
+  - name: To display variable
+    vars:
+    MUKUNDA: Automotive
+    ansible.builtin.debug:
+     msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
