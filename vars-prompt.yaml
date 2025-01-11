@@ -1,0 +1,15 @@
+- name : To print the value name
+  hosts: local
+  connection: local
+  vars_files:
+  
+  - name: To print the mukunda
+    prompt: Mukunda 
+  - name: spending
+    prompt: Everyday spending
+  - name: Money
+    prompt: Everyday spendiing mone
+    tasks:
+     - name: To display the information
+        ansible.builtin.debug:
+        msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
