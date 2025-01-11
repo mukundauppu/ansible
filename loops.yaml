@@ -5,8 +5,8 @@
   - name : To print the loop
     ansible.buitin.debug:
      msg: "{{ item }}"
-   loop:
-   - mk
-   - km
-   - uk
+    loop:
+    - mk
+    - km
+    - uk
   
