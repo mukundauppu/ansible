@@ -6,6 +6,7 @@
     ansible.buitin.debug:
      msg: "{{ item }}"
    loop:
-    - Mukunda
-    - Kumar
-    - UPPU
+   - mk
+   - km
+   - uk
+  
