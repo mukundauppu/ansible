@@ -3,12 +3,12 @@
   become: yes
   tasks:
   - name: To install ngnix
-      name: nginx
       ansible.built.in.package:
+      name: nginx
       state: present
   - name: To run ngnix
-      ansibe.built.in.service:
       name: nginx
+      ansibe.built.in.service:
       state: started
       enabled: yes
     -
