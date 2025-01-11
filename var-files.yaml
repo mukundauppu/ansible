@@ -1,0 +1,9 @@
+- name: To refer the variable name
+  hosts: local
+  connecction: local
+  vars-files:
+  - vars.yaml
+  tasks:
+   - name: To print the display information
+     ansible.builtin.debug:
+      msg : "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
