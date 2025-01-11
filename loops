@@ -1,0 +1,11 @@
+- name: To perform loop
+  hosts: local
+  connection: local
+  tasks:
+  - name : To print the loop
+    ansible.buitin.debug:
+     msg: "{{ item }}"
+   loop:
+    - Mukunda
+    - Kumar
+    - UPPU
