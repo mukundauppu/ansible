@@ -6,7 +6,7 @@
     ansible.builtin.package:
       name: nginx
       state: present
-  - name: Start service
+  - name: Start service and run
     ansible.builtin.service:
       name: ngnix
       state: started
