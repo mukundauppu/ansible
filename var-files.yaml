@@ -1,6 +1,6 @@
 - name: To refer the variable name
   hosts: local
-  connecction: local
+  connection: local
   vars-files:
   - vars.yaml
   tasks:
