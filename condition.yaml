@@ -1,12 +1,11 @@
-- name: To display greater number
+- name: check value is greater than 10 or not
   hosts: local
   connection: local
-  vars: 
-   my_number: 15
+  vars:
+    my_number: 15
   tasks:
-  - name: To display greater number
-    ansible.buitin.debug:
-     msg: "display {{my_number}} greater than 10"
+  - name: print if number greater than 10
+    ansible.builtin.debug:
+      msg: "Given number {{ my_number }} is greater than 10"
     when: my_number > 10
-
   
