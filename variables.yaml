@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   vars:
-   MUKUNDA: " joined devops"
-   EVERYDAY: "practicing at home "
-   SPENDING: "4 hours everyday"
+   MUKUNDA: " is a good knowlege person "
+   EVERYDAY: "veerabrahma zf hr is a waste fellow allows delaying the proces "
+   SPENDING: "lots of effort verabrahma relased the offer"
   tasks:
   - name: To display variable
     ansible.builtin.debug:
-     msg: "mukunda {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
+     msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
