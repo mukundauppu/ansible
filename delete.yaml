@@ -4,8 +4,8 @@
   tasks:
   - name: To install mp packages
     ansible.builtin.package:
-     name: "{{ item }}"
-     state: installed
+     name: "{{ item.name }}"
+     state: "{{ item.state }}"
     loop:
-    - { name: 'git', state:'present'}
-    - { name: 'mysql', state:'absent'}
+    - { name: 'git', state:'present' }
+    - { name: 'mysql', state:'absent' }
