@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name : To print the loop
-    ansible.buitin.debug:
+    ansible.builtin.debug:
      msg: "{{ item }}"
     loop:
     - mk
