@@ -11,3 +11,6 @@
      MUKUNDA: Automotive
     ansible.builtin.debug:
       msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
+  - name: To display variable
+     ansible.builtin.debug:
+      msg: "keerthi {{MUKUNDA}}, everyday {{EVERYDAY}} ,spending {{SPENDING}}"
