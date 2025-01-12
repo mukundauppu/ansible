@@ -11,5 +11,5 @@
     register: command_result
 
   - name: To execute the above command
-    ansible.buitin.debug:
+     ansible.buitin.debug:
       msg: "{{ command_result }}"
