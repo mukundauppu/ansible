@@ -9,7 +9,6 @@
   - name: Toexecute command line
     ansible.builtin.command: ls -lrth 
     register: command_result
-
   - name: To execute the above command
     ansible.buitin.debug:
-      msg: "{{ command_result }}"
+     msg: "{{ command_result }}"
