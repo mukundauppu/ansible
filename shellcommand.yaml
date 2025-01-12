@@ -1,6 +1,6 @@
 - name: To execuse command line
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name: To execute command line
      ansible.builtin.command: ls -ltr > /tmp/output.txt
