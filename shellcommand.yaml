@@ -6,3 +6,10 @@
   #   # ansible.builtin.command: ls -ltr > /tmp/output.txt
   - name: Toexecute shell line
     ansible.builtin.shell: ls -lrth > /tmp/output.txt
+   - name: Toexecute command line
+     ansible.builtin.shell: ls -lrth 
+     register: command_result
+
+   - name: To execute the above command
+     ansible.buitin.debug:
+      msg: "{{ command_result }}"
