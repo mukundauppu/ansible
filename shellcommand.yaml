@@ -7,7 +7,7 @@
   - name: Toexecute shell line
     ansible.builtin.shell: ls -lrth > /tmp/output.txt
    - name: Toexecute command line
-     ansible.builtin.shell: ls -lrth 
+     ansible.builtin.command: ls -lrth 
      register: command_result
 
    - name: To execute the above command
