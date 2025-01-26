@@ -28,3 +28,6 @@
       instance_type: "{{ instance_type }}"
     loop: "{{ instances }}"
     register: ec2_info
+  - name: To print the output
+    ansible.builtin.debug:
+      msg: "{{ ec2_info }}"
