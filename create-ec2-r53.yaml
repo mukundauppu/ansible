@@ -1,5 +1,5 @@
 - name: create ec2 and r53 records
-  connections: local
+  connection: local
   hosts: local
   tasks:
   vars: 
