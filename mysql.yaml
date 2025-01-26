@@ -17,6 +17,10 @@
       login_password: Expense@1
       login_host: mysql.mukunda.store
       register: mysql_info
+      ignore_errors: true
    - name: To print the output
      ansible.builtin.debug:
-      msg: " display {{ mysql_info }}"
+      msg: "Display {{ mysql_info }}" 
+      
+
+
